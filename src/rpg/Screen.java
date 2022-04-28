@@ -3,7 +3,7 @@ package rpg;
 import java.awt.Graphics;
 
 public class Screen {
-	Tile[][] grid;
+	private Tile[][] grid;
 	public Screen()
 	{
 		grid = new Tile[27][48];
